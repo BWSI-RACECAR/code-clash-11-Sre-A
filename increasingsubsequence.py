@@ -40,6 +40,7 @@ class Solution:
             arr.sort()
             max = 1
             for i in range(len(arr)-1):
+                print(arr[i])
                 if arr[i] == arr[i+1]-1:
                     max += 1
             return max
